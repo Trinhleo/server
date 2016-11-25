@@ -10,7 +10,6 @@ var path = require('path');
 var serveStatic = require('serve-static');
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
-var favicon = require('serve-favicon');
 var myIp = require('ip');
 // var socketConfig = require('./config/socket');
 var morgan = require('morgan');
