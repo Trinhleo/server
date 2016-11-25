@@ -4,7 +4,7 @@ var jwt = require('./../util/jwt.util');
 var myIp = require('ip').address();
 var myHost = require('./../config/server').HOST;
 var port = require('./../config/server').PORT;
-var urlPrefix = ('//').concat(myHost).concat(':').concat(port);
+var urlPrefix = ('//').concat(myHost);
 
 module.exports = {
     signup: signup,

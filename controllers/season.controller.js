@@ -2,7 +2,7 @@ var seasonDao = require('./../dao/season.dao');
 var gardenDao = require('./../dao/garden.dao'); var myIp = require('ip').address() || '127.0.0.1';
 var myHost = require('./../config/server').HOST;
 var port = require('./../config/server').PORT;
-var urlPrefix = ('//').concat(myHost).concat(':').concat(port);
+var urlPrefix = ('//').concat(myHost)
 var cron = require('node-cron');
 var _ = require('lodash');
 module.exports = {

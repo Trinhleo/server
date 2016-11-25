@@ -2,7 +2,7 @@ var productionItemDao = require('./../dao/production-item.dao');
 var myIp = require('ip').address();
 var myHost = require('./../config/server').HOST;
 var port = require('./../config/server').PORT;
-var urlPrefix = ('//').concat(myHost).concat(':').concat(port);
+var urlPrefix = ('//').concat(myHost)
 var _ = require('lodash');
 module.exports = {
     listAllProductionItems: listAllProductionItems,
